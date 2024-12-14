@@ -1,1 +1,1 @@
-.zshrc
+/Users/gregladden/.zshrc
