@@ -18,16 +18,10 @@ return {
 		lspconfig.eslint.setup({ capabilities = capabilities })
 		lspconfig.golangci_lint_ls.setup({ capabilities = capabilities })
 		lspconfig.gopls.setup({ capabilities = capabilities })
-		lspconfig.graphql.setup({ capabilities = capabilities })
 		lspconfig.html.setup({ capabilities = capabilities })
 		lspconfig.helm_ls.setup({ capabilities = capabilities })
 		lspconfig.jsonls.setup({ capabilities = capabilities })
-		lspconfig.biome.setup({ capabilities = capabilities })
-		lspconfig.sqlls.setup({ capabilities = capabilities })
 		lspconfig.tailwindcss.setup({ capabilities = capabilities })
-		lspconfig.templ.setup({ capabilities = capabilities })
-		lspconfig.terraformls.setup({ capabilities = capabilities })
-		lspconfig.tflint.setup({ capabilities = capabilities })
 		lspconfig.yamlls.setup({ capabilities = capabilities })
 		lspconfig.emmet_ls.setup({
 			capabilities = capabilities,
