@@ -32,12 +32,14 @@ return {
 				"tailwindcss",
 				"svelte",
 				"lua_ls",
+				"graphql",
 				"emmet_ls",
 				"pyright",
 				"clangd",
 				"dockerls",
 				"docker_compose_language_service",
 				"gopls",
+				"templ",
 				"yamlls",
 			},
 		})
@@ -55,13 +57,13 @@ return {
 		end
 
 		-- Call setup on each LSP server
-		require("mason-lspconfig").setup_handlers({
-			function(server_name)
-				lspconfig[server_name].setup({
-					on_attach = lsp_attach,
-					capabilities = lsp_capabilities,
-				})
-			end,
-		})
+		-- require("mason-lspconfig").setup_handlers({
+		-- 	function(server_name)
+		-- 		lspconfig[server_name].setup({
+		-- 			on_attach = lsp_attach,
+		-- 			capabilities = lsp_capabilities,
+		-- 		})
+		-- 	end,
+		-- })
 	end,
 }

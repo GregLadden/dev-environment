@@ -11,9 +11,9 @@ config = {
 	cursor_blink_ease_in = "Constant",
 	cursor_blink_rate = 600,
 	colors = {
-		cursor_bg = "#FAAF4A",
-		-- cursor_fg = "#FAAF4A",
-		cursor_border = "#FAAF4A",
+		background = "#232A2E",
+		cursor_bg = "#f6c177",
+		cursor_border = "#f6c177",
 	},
 	automatically_reload_config = true,
 	window_close_confirmation = "NeverPrompt",
@@ -31,29 +31,29 @@ config = {
 		top = 20,
 		bottom = 0,
 	},
-	background = {
-		{
-			source = {
-				File = "/Users/" .. os.getenv("USER") .. "/.config/wezterm/dark-desert.jpg",
-			},
-			hsb = {
-				hue = 1.0,
-				saturation = 1.02,
-				brightness = 0.25,
-			},
-			-- attachment = { Parallax = 0.3 },
-			-- width = "100%",
-			-- height = "100%",
-		},
-		{
-			source = {
-				Color = "#232A2E",
-			},
-			width = "100%",
-			height = "100%",
-			-- opacity = 0.75,
-		},
-	},
+	-- background = {
+	-- 	{
+	-- 		source = {
+	-- 			File = "/Users/" .. os.getenv("USER") .. "/.config/wezterm/dark-desert.jpg",
+	-- 		},
+	-- 		hsb = {
+	-- 			hue = 1.0,
+	-- 			saturation = 1.02,
+	-- 			brightness = 0.25,
+	-- 		},
+	-- 		-- attachment = { Parallax = 0.3 },
+	-- 		-- width = "100%",
+	-- 		-- height = "100%",
+	-- 	},
+	-- 	{
+	-- 		source = {
+	-- 			Color = "#232A2E",
+	-- 		},
+	-- 		width = "100%",
+	-- 		height = "100%",
+	-- 		-- opacity = 0.75,
+	-- 	},
+	-- },
 	-- from: https://akos.ma/blog/adopting-wezterm/
 	hyperlink_rules = {
 		-- Matches: a URL in parens: (URL)
